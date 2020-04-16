@@ -267,7 +267,7 @@ class LandingPageComponent {
     }
 }
 LandingPageComponent.ɵfac = function LandingPageComponent_Factory(t) { return new (t || LandingPageComponent)(); };
-LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LandingPageComponent, selectors: [["app-landing-page"]], decls: 224, vars: 0, consts: [[1, "container"], [1, "row"], [1, "col-12"], [1, "main-content", "py-5"], [1, "page-header-wrapper"], [1, "header-left"], [1, "page-title", "mb-3"], [1, "col-12", "no-padding-md"], [1, "transaction-table", "tablet-table-view"], [1, "card", "card-table"], [1, "card-body"], [1, "table-wrapper", "table-responsive"], [1, "table"], ["scope", "col", "width", ""], ["scope", "col", "width", "200px"], [2, "max-width", "300px"], ["data-title", "Role"], ["data-title", "Page"], ["data-title", "URL"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/login", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/checkout-order", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/signup", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/terms-conditions", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/account-setting", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/webshop-modal", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/verify-successful", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/dashboard/transactions", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/dashboard/card", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/dashboard/profile", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/login", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/create-password", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/forgot-password", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/reset-password", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/dashboard/transactions", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/dashboard/documents", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/dashboard/webshop", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/transactions", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/debtors", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/debtor-details", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/merchants", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/merchant-details", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/users", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/activity-log", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/card-payments", 1, "small"], ["href", "", 1, "small"], ["href", "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/system-settings", 1, "small"]], template: function LandingPageComponent_Template(rf, ctx) { if (rf & 1) {
+LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LandingPageComponent, selectors: [["app-landing-page"]], decls: 224, vars: 0, consts: [[1, "container"], [1, "row"], [1, "col-12"], [1, "main-content", "py-5"], [1, "page-header-wrapper"], [1, "header-left"], [1, "page-title", "mb-3"], [1, "col-12", "no-padding-md"], [1, "transaction-table", "tablet-table-view"], [1, "card", "card-table"], [1, "card-body"], [1, "table-wrapper", "table-responsive"], [1, "table"], ["scope", "col", "width", ""], ["scope", "col", "width", "200px"], [2, "max-width", "300px"], ["data-title", "Role"], ["data-title", "Page"], ["data-title", "URL"], ["href", "/debtor/login", 1, "small"], ["href", "/debtor/checkout-order", 1, "small"], ["href", "/debtor/signup", 1, "small"], ["href", "/debtor/terms-conditions", 1, "small"], ["href", "/debtor/account-setting", 1, "small"], ["href", "/debtor/webshop-modal", 1, "small"], ["href", "/debtor/verify-successful", 1, "small"], ["href", "/debtor/dashboard/transactions", 1, "small"], ["href", "/debtor/dashboard/card", 1, "small"], ["href", "/debtor/dashboard/profile", 1, "small"], ["href", "/merchant/login", 1, "small"], ["href", "/merchant/create-password", 1, "small"], ["href", "/merchant/forgot-password", 1, "small"], ["href", "/merchant/reset-password", 1, "small"], ["href", "/merchant/dashboard/transactions", 1, "small"], ["href", "/merchant/dashboard/documents", 1, "small"], ["href", "/merchant/dashboard/webshop", 1, "small"], ["href", "/admin/dashboard/transactions", 1, "small"], ["href", "/admin/dashboard/debtors", 1, "small"], ["href", "/admin/dashboard/debtor-details", 1, "small"], ["href", "/admin/dashboard/merchants", 1, "small"], ["href", "/admin/dashboard/merchant-details", 1, "small"], ["href", "/admin/dashboard/users", 1, "small"], ["href", "/admin/dashboard/activity-log", 1, "small"], ["href", "/admin/dashboard/card-payments", 1, "small"], ["href", "", 1, "small"], ["href", "/admin/dashboard/system-settings", 1, "small"]], template: function LandingPageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -313,7 +313,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/login");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "/debtor/login");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -324,7 +324,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/checkout-order");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "/debtor/checkout-order");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -335,7 +335,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/signup");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "/debtor/signup");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -346,7 +346,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "a", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/terms-conditions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "/debtor/terms-conditions");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -357,7 +357,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/account-setting");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "/debtor/account-setting");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -368,7 +368,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "a", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/webshop-modal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "/debtor/webshop-modal");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -379,7 +379,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "a", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/verify-successful");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "/debtor/verify-successful");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -394,7 +394,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "a", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/dashboard/transactions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "/debtor/dashboard/transactions");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -405,7 +405,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "a", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/dashboard/card");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "/debtor/dashboard/card");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -416,7 +416,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "http://anydaymarkup.manaoweb.company.manaosoftware.com/debtor/dashboard/profile");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](98, "/debtor/dashboard/profile");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -431,7 +431,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "a", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/login");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "/merchant/login");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -442,7 +442,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "a", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/create-password");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "/merchant/create-password");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -453,7 +453,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "a", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](121, "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/forgot-password");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](121, "/merchant/forgot-password");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -464,7 +464,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "a", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/reset-password");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](128, "/merchant/reset-password");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -479,7 +479,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](137, "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/dashboard/transactions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](137, "/merchant/dashboard/transactions");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -490,7 +490,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](142, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "a", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](144, "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/dashboard/documents");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](144, "/merchant/dashboard/documents");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -501,7 +501,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "a", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](151, "http://anydaymarkup.manaoweb.company.manaosoftware.com/merchant/dashboard/webshop");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](151, "/merchant/dashboard/webshop");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -516,7 +516,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "a", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/transactions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "/admin/dashboard/transactions");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -527,7 +527,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](165, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "a", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](167, "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/debtors");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](167, "/admin/dashboard/debtors");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -538,7 +538,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](172, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](173, "a", 38);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](174, "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/debtor-details");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](174, "/admin/dashboard/debtor-details");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -549,7 +549,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](179, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](180, "a", 39);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/merchants");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](181, "/admin/dashboard/merchants");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -560,7 +560,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](186, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](187, "a", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](188, "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/merchant-details");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](188, "/admin/dashboard/merchant-details");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -571,7 +571,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](193, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](194, "a", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/users");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](195, "/admin/dashboard/users");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -582,7 +582,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](200, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](201, "a", 42);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/activity-log");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](202, "/admin/dashboard/activity-log");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -593,7 +593,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](207, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](208, "a", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](209, "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/card-payments");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](209, "/admin/dashboard/card-payments");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -615,7 +615,7 @@ LandingPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](221, "td", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](222, "a", 45);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](223, "http://anydaymarkup.manaoweb.company.manaosoftware.com/admin/dashboard/system-settings");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](223, "/admin/dashboard/system-settings");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

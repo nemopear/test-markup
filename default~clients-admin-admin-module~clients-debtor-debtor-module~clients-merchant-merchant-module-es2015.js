@@ -41412,6 +41412,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ngx-bootstrap/tabs */ "./node_modules/ngx-bootstrap/__ivy_ngcc__/tabs/fesm2015/ngx-bootstrap-tabs.js");
 /* harmony import */ var _dropdown_status_dropdown_status_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./dropdown-status/dropdown-status.component */ "./src/app/clients/core/dropdown-status/dropdown-status.component.ts");
 /* harmony import */ var _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./bar-testmode/bar-testmode.component */ "./src/app/clients/core/bar-testmode/bar-testmode.component.ts");
+/* harmony import */ var _testmode_warning_testmode_warning_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./testmode-warning/testmode-warning.component */ "./src/app/clients/core/testmode-warning/testmode-warning.component.ts");
+
 
 
 
@@ -41463,7 +41465,8 @@ CoreModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
         _transaction_empty_transaction_empty_component__WEBPACK_IMPORTED_MODULE_13__["TransactionEmptyComponent"],
         _paginator_paginator_component__WEBPACK_IMPORTED_MODULE_14__["PaginatorComponent"],
         _dropdown_status_dropdown_status_component__WEBPACK_IMPORTED_MODULE_16__["DropdownStatusComponent"],
-        _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__["BarTestmodeComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+        _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__["BarTestmodeComponent"],
+        _testmode_warning_testmode_warning_component__WEBPACK_IMPORTED_MODULE_18__["TestmodeWarningComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
         _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"],
         _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_5__["NgSelectModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"],
@@ -41481,7 +41484,8 @@ CoreModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
         _paginator_paginator_component__WEBPACK_IMPORTED_MODULE_14__["PaginatorComponent"],
         ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_15__["TabsModule"],
         _dropdown_status_dropdown_status_component__WEBPACK_IMPORTED_MODULE_16__["DropdownStatusComponent"],
-        _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__["BarTestmodeComponent"]
+        _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__["BarTestmodeComponent"],
+        _testmode_warning_testmode_warning_component__WEBPACK_IMPORTED_MODULE_18__["TestmodeWarningComponent"]
         // Chart
     ] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CoreModule, [{
@@ -41497,7 +41501,8 @@ CoreModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
                     _transaction_empty_transaction_empty_component__WEBPACK_IMPORTED_MODULE_13__["TransactionEmptyComponent"],
                     _paginator_paginator_component__WEBPACK_IMPORTED_MODULE_14__["PaginatorComponent"],
                     _dropdown_status_dropdown_status_component__WEBPACK_IMPORTED_MODULE_16__["DropdownStatusComponent"],
-                    _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__["BarTestmodeComponent"]
+                    _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__["BarTestmodeComponent"],
+                    _testmode_warning_testmode_warning_component__WEBPACK_IMPORTED_MODULE_18__["TestmodeWarningComponent"]
                 ],
                 imports: [
                     _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
@@ -41524,7 +41529,8 @@ CoreModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
                     _paginator_paginator_component__WEBPACK_IMPORTED_MODULE_14__["PaginatorComponent"],
                     ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_15__["TabsModule"],
                     _dropdown_status_dropdown_status_component__WEBPACK_IMPORTED_MODULE_16__["DropdownStatusComponent"],
-                    _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__["BarTestmodeComponent"]
+                    _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__["BarTestmodeComponent"],
+                    _testmode_warning_testmode_warning_component__WEBPACK_IMPORTED_MODULE_18__["TestmodeWarningComponent"]
                     // Chart
                 ]
             }]
@@ -42236,6 +42242,48 @@ ProgressStepComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵde
         args: [{
                 selector: 'app-progress-step',
                 templateUrl: './progress-step.component.html'
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/clients/core/testmode-warning/testmode-warning.component.ts":
+/*!*****************************************************************************!*\
+  !*** ./src/app/clients/core/testmode-warning/testmode-warning.component.ts ***!
+  \*****************************************************************************/
+/*! exports provided: TestmodeWarningComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TestmodeWarningComponent", function() { return TestmodeWarningComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class TestmodeWarningComponent {
+    constructor() {
+    }
+    ngOnInit() {
+    }
+}
+TestmodeWarningComponent.ɵfac = function TestmodeWarningComponent_Factory(t) { return new (t || TestmodeWarningComponent)(); };
+TestmodeWarningComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TestmodeWarningComponent, selectors: [["app-testmode-warning"]], decls: 5, vars: 0, consts: [[1, "testmode-warning"], [1, "content-alert"], [1, "icon-exclamation-custom", "green"], [1, "text"]], template: function TestmodeWarningComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "i", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " You are in test mode. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NsaWVudHMvY29yZS90ZXN0bW9kZS13YXJuaW5nL3Rlc3Rtb2RlLXdhcm5pbmcuY29tcG9uZW50LnNjc3MifQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TestmodeWarningComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-testmode-warning',
+                templateUrl: './testmode-warning.component.html',
+                styleUrls: ['./testmode-warning.component.scss']
             }]
     }], function () { return []; }, null); })();
 
