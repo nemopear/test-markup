@@ -396,9 +396,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     RedflagComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: RedflagComponent,
       selectors: [["app-redflag"]],
-      decls: 13,
+      decls: 15,
       vars: 0,
-      consts: [[1, "app-body", "bg-green-gradient", "page-redflag"], [1, "main", "d-flex", "align-items-center"], [1, "container"], [1, "row"], [1, "col-lg-12", "mx-auto"], [1, "card-transparent", "bg-transparent"], [1, "img-logo"], ["src", "../../../../assets/img/logo-anyday.png", "alt", "Alternate Text"], [1, "text-wrapper"], [1, "icon-wrapper"], [1, "icon-sad"], [1, "text-secondery"]],
+      consts: [[1, "app-body", "bg-green-gradient", "page-redflag"], [1, "main", "d-flex", "align-items-center"], [1, "container"], [1, "row"], [1, "col-lg-12", "mx-auto"], [1, "card-transparent", "bg-transparent"], [1, "img-logo"], ["src", "../../../../assets/img/logo-anyday.png", "alt", "Alternate Text"], [1, "text-wrapper"], [1, "icon-wrapper"], [1, "icon-sad"], [1, "text-secondery"], ["href", "", 1, "btn", "btn-primary", "px-4"]],
       template: function RedflagComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -430,6 +430,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 11);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " Sorry, your account can't be used for purchases right now. Please contact ANYDAY support. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " back to store ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
