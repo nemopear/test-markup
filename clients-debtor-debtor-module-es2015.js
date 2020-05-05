@@ -35400,6 +35400,8 @@ const _c0 = function () { return { standalone: true }; };
 class TransactionsComponent {
     constructor(modalService) {
         this.modalService = modalService;
+        // public chartReady = true;
+        this.emptyText = 'No transaction';
         this.showLoading = false;
         this.showFeedback = false;
         this.isDsc = false;

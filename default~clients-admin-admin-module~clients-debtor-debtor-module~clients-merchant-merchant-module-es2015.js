@@ -42679,15 +42679,18 @@ class TransactionEmptyComponent {
     }
 }
 TransactionEmptyComponent.ɵfac = function TransactionEmptyComponent_Factory(t) { return new (t || TransactionEmptyComponent)(); };
-TransactionEmptyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TransactionEmptyComponent, selectors: [["app-transaction-empty"]], decls: 5, vars: 0, consts: [[1, "transaction-empty"], [1, "text-center"], [1, "icon-book-open"], [1, "text"]], template: function TransactionEmptyComponent_Template(rf, ctx) { if (rf & 1) {
+TransactionEmptyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TransactionEmptyComponent, selectors: [["app-transaction-empty"]], inputs: { textEmpty: "textEmpty" }, decls: 5, vars: 1, consts: [[1, "transaction-empty", "d-flex", "align-items-center", "justify-content-center"], [1, "text-center"], [1, "icon-book-open"], [1, "text"]], template: function TransactionEmptyComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "i", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "No transaction");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.textEmpty);
     } }, encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TransactionEmptyComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
@@ -42695,7 +42698,9 @@ TransactionEmptyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
                 selector: 'app-transaction-empty',
                 templateUrl: './transaction-empty.component.html'
             }]
-    }], function () { return []; }, null); })();
+    }], function () { return []; }, { textEmpty: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
 
 
 /***/ })

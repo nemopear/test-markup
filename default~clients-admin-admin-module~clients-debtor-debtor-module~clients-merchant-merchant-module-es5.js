@@ -65803,9 +65803,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     TransactionEmptyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: TransactionEmptyComponent,
       selectors: [["app-transaction-empty"]],
+      inputs: {
+        textEmpty: "textEmpty"
+      },
       decls: 5,
-      vars: 0,
-      consts: [[1, "transaction-empty"], [1, "text-center"], [1, "icon-book-open"], [1, "text"]],
+      vars: 1,
+      consts: [[1, "transaction-empty", "d-flex", "align-items-center", "justify-content-center"], [1, "text-center"], [1, "icon-book-open"], [1, "text"]],
       template: function TransactionEmptyComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -65816,13 +65819,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "No transaction");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.textEmpty);
         }
       },
       encapsulation: 2
@@ -65838,7 +65847,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }]
       }], function () {
         return [];
-      }, null);
+      }, {
+        textEmpty: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }]
+      });
     })();
     /***/
 

@@ -37358,7 +37358,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       function TransactionsComponent(modalService) {
         _classCallCheck(this, TransactionsComponent);
 
-        this.modalService = modalService;
+        this.modalService = modalService; // public chartReady = true;
+
+        this.emptyText = 'No transaction';
         this.showLoading = false;
         this.showFeedback = false;
         this.isDsc = false;
