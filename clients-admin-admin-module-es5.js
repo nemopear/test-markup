@@ -928,6 +928,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _system_settings_system_settings_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
     /*! ./system-settings/system-settings.component */
     "./src/app/clients/admin/system-settings/system-settings.component.ts");
+    /* harmony import */
+
+
+    var _payouts_empty_payouts_empty_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! ./payouts-empty/payouts-empty.component */
+    "./src/app/clients/admin/payouts-empty/payouts-empty.component.ts");
 
     var routes = [{
       path: 'dashboard',
@@ -988,6 +994,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         component: _payouts_payouts_component__WEBPACK_IMPORTED_MODULE_11__["PayoutsComponent"],
         data: {
           title: 'Payouts'
+        }
+      }, {
+        path: 'payouts-empty',
+        component: _payouts_empty_payouts_empty_component__WEBPACK_IMPORTED_MODULE_13__["PayoutsEmptyComponent"],
+        data: {
+          title: 'Payouts empty'
         }
       }, {
         path: 'system-settings',
@@ -1137,6 +1149,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _system_settings_system_settings_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
     /*! ./system-settings/system-settings.component */
     "./src/app/clients/admin/system-settings/system-settings.component.ts");
+    /* harmony import */
+
+
+    var _payouts_empty_payouts_empty_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    /*! ./payouts-empty/payouts-empty.component */
+    "./src/app/clients/admin/payouts-empty/payouts-empty.component.ts");
 
     var AdminModule = function AdminModule() {
       _classCallCheck(this, AdminModule);
@@ -1154,7 +1172,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AdminModule, {
-        declarations: [_transactions_transactions_component__WEBPACK_IMPORTED_MODULE_3__["TransactionsComponent"], _debtors_debtors_component__WEBPACK_IMPORTED_MODULE_5__["DebtorsComponent"], _debtor_details_debtor_details_component__WEBPACK_IMPORTED_MODULE_6__["DebtorDetailsComponent"], _merchants_merchants_component__WEBPACK_IMPORTED_MODULE_7__["MerchantsComponent"], _merchant_details_merchant_details_component__WEBPACK_IMPORTED_MODULE_8__["MerchantDetailsComponent"], _users_users_component__WEBPACK_IMPORTED_MODULE_9__["UsersComponent"], _card_payments_card_payments_component__WEBPACK_IMPORTED_MODULE_10__["CardPaymentsComponent"], _activity_log_activity_log_component__WEBPACK_IMPORTED_MODULE_11__["ActivityLogComponent"], _payouts_payouts_component__WEBPACK_IMPORTED_MODULE_12__["PayoutsComponent"], _system_settings_system_settings_component__WEBPACK_IMPORTED_MODULE_13__["SystemSettingsComponent"]],
+        declarations: [_transactions_transactions_component__WEBPACK_IMPORTED_MODULE_3__["TransactionsComponent"], _debtors_debtors_component__WEBPACK_IMPORTED_MODULE_5__["DebtorsComponent"], _debtor_details_debtor_details_component__WEBPACK_IMPORTED_MODULE_6__["DebtorDetailsComponent"], _merchants_merchants_component__WEBPACK_IMPORTED_MODULE_7__["MerchantsComponent"], _merchant_details_merchant_details_component__WEBPACK_IMPORTED_MODULE_8__["MerchantDetailsComponent"], _users_users_component__WEBPACK_IMPORTED_MODULE_9__["UsersComponent"], _card_payments_card_payments_component__WEBPACK_IMPORTED_MODULE_10__["CardPaymentsComponent"], _activity_log_activity_log_component__WEBPACK_IMPORTED_MODULE_11__["ActivityLogComponent"], _payouts_payouts_component__WEBPACK_IMPORTED_MODULE_12__["PayoutsComponent"], _system_settings_system_settings_component__WEBPACK_IMPORTED_MODULE_13__["SystemSettingsComponent"], _payouts_empty_payouts_empty_component__WEBPACK_IMPORTED_MODULE_14__["PayoutsEmptyComponent"]],
         imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _admin_routing_module__WEBPACK_IMPORTED_MODULE_2__["AdminRoutingModule"], _core_core_module__WEBPACK_IMPORTED_MODULE_4__["CoreModule"]]
       });
     })();
@@ -1165,7 +1183,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AdminModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
-          declarations: [_transactions_transactions_component__WEBPACK_IMPORTED_MODULE_3__["TransactionsComponent"], _debtors_debtors_component__WEBPACK_IMPORTED_MODULE_5__["DebtorsComponent"], _debtor_details_debtor_details_component__WEBPACK_IMPORTED_MODULE_6__["DebtorDetailsComponent"], _merchants_merchants_component__WEBPACK_IMPORTED_MODULE_7__["MerchantsComponent"], _merchant_details_merchant_details_component__WEBPACK_IMPORTED_MODULE_8__["MerchantDetailsComponent"], _users_users_component__WEBPACK_IMPORTED_MODULE_9__["UsersComponent"], _card_payments_card_payments_component__WEBPACK_IMPORTED_MODULE_10__["CardPaymentsComponent"], _activity_log_activity_log_component__WEBPACK_IMPORTED_MODULE_11__["ActivityLogComponent"], _payouts_payouts_component__WEBPACK_IMPORTED_MODULE_12__["PayoutsComponent"], _system_settings_system_settings_component__WEBPACK_IMPORTED_MODULE_13__["SystemSettingsComponent"]],
+          declarations: [_transactions_transactions_component__WEBPACK_IMPORTED_MODULE_3__["TransactionsComponent"], _debtors_debtors_component__WEBPACK_IMPORTED_MODULE_5__["DebtorsComponent"], _debtor_details_debtor_details_component__WEBPACK_IMPORTED_MODULE_6__["DebtorDetailsComponent"], _merchants_merchants_component__WEBPACK_IMPORTED_MODULE_7__["MerchantsComponent"], _merchant_details_merchant_details_component__WEBPACK_IMPORTED_MODULE_8__["MerchantDetailsComponent"], _users_users_component__WEBPACK_IMPORTED_MODULE_9__["UsersComponent"], _card_payments_card_payments_component__WEBPACK_IMPORTED_MODULE_10__["CardPaymentsComponent"], _activity_log_activity_log_component__WEBPACK_IMPORTED_MODULE_11__["ActivityLogComponent"], _payouts_payouts_component__WEBPACK_IMPORTED_MODULE_12__["PayoutsComponent"], _system_settings_system_settings_component__WEBPACK_IMPORTED_MODULE_13__["SystemSettingsComponent"], _payouts_empty_payouts_empty_component__WEBPACK_IMPORTED_MODULE_14__["PayoutsEmptyComponent"]],
           imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"], _admin_routing_module__WEBPACK_IMPORTED_MODULE_2__["AdminRoutingModule"], _core_core_module__WEBPACK_IMPORTED_MODULE_4__["CoreModule"]]
         }]
       }], null, null);
@@ -7181,6 +7199,761 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         return [{
           type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]
         }];
+      }, {
+        datePicker: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"],
+          args: ['dp', {
+            static: false
+          }]
+        }]
+      });
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/clients/admin/payouts-empty/payouts-empty.component.ts":
+  /*!************************************************************************!*\
+    !*** ./src/app/clients/admin/payouts-empty/payouts-empty.component.ts ***!
+    \************************************************************************/
+
+  /*! exports provided: PayoutsEmptyComponent */
+
+  /***/
+  function srcAppClientsAdminPayoutsEmptyPayoutsEmptyComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "PayoutsEmptyComponent", function () {
+      return PayoutsEmptyComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var ngx_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ngx-bootstrap */
+    "./node_modules/ngx-bootstrap/__ivy_ngcc__/esm5/ngx-bootstrap.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @ng-select/ng-select */
+    "./node_modules/@ng-select/ng-select/__ivy_ngcc__/fesm2015/ng-select-ng-select.js");
+    /* harmony import */
+
+
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @angular/forms */
+    "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+    /* harmony import */
+
+
+    var _core_transaction_empty_transaction_empty_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ../../core/transaction-empty/transaction-empty.component */
+    "./src/app/clients/core/transaction-empty/transaction-empty.component.ts");
+    /* harmony import */
+
+
+    var ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! ngx-bootstrap/datepicker */
+    "./node_modules/ngx-bootstrap/__ivy_ngcc__/datepicker/fesm2015/ngx-bootstrap-datepicker.js");
+
+    var _c0 = ["dp"];
+
+    var _c1 = function _c1() {
+      return {
+        rangeInputFormat: "DD-MM-YYYY",
+        showWeekNumbers: false
+      };
+    };
+
+    function PayoutsEmptyComponent_div_18_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 28);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "input", 29);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("bsConfig", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](1, _c1));
+      }
+    }
+
+    var _c2 = function _c2(a0) {
+      return {
+        "open": a0
+      };
+    };
+
+    var _c3 = function _c3() {
+      return {
+        rangeInputFormat: "DD-MM-YYYY",
+        showWeekNumbers: false,
+        adaptivePosition: true,
+        containerClass: "aside-datepicker theme-green"
+      };
+    };
+
+    function PayoutsEmptyComponent_div_33_div_15_Template(rf, ctx) {
+      if (rf & 1) {
+        var _r263 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 41);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "input", 42, 43);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("onShown", function PayoutsEmptyComponent_div_33_div_15_Template_input_onShown_1_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r263);
+
+          var ctx_r262 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r262.onShow($event);
+        })("onHidden", function PayoutsEmptyComponent_div_33_div_15_Template_input_onHidden_1_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r263);
+
+          var ctx_r264 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+          return ctx_r264.onHidden($event);
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "i", 44);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PayoutsEmptyComponent_div_33_div_15_Template_i_click_3_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r263);
+
+          var _r261 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](2);
+
+          return _r261.toggle();
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var ctx_r260 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](2, _c2, ctx_r260.calendarIsShow));
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("bsConfig", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](4, _c3));
+      }
+    }
+
+    var _c4 = function _c4() {
+      return {
+        standalone: true
+      };
+    };
+
+    function PayoutsEmptyComponent_div_33_Template(rf, ctx) {
+      if (rf & 1) {
+        var _r267 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 30);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 31);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 32);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "i", 6);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Filters ");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 33);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Clear");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "form", 34);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 9);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "input", 10);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "i", 11);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 16);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Period");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 12);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "ng-select", 13);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function PayoutsEmptyComponent_div_33_Template_ng_select_ngModelChange_14_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r267);
+
+          var ctx_r266 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r266.selectedTimeDropdown = $event;
+        })("close", function PayoutsEmptyComponent_div_33_Template_ng_select_close_14_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r267);
+
+          var ctx_r268 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r268.checkCustom();
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, PayoutsEmptyComponent_div_33_div_15_Template, 4, 5, "div", 35);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 36);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 16);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Status");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 17);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "ng-select", 37);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function PayoutsEmptyComponent_div_33_Template_ng_select_ngModelChange_20_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r267);
+
+          var ctx_r269 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r269.selectedStatusDropdown = $event;
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 38);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "button", 39);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Apply");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "button", 40);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PayoutsEmptyComponent_div_33_Template_button_click_24_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r267);
+
+          var ctx_r270 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r270.closeAside();
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Cancel");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var ctx_r258 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("items", ctx_r258.selectTimeDropdown)("multiple", false)("closeOnSelect", true)("clearable", false)("searchable", false)("ngModel", ctx_r258.selectedTimeDropdown)("ngModelOptions", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](15, _c4));
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r258.isShowDatePicker);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("items", ctx_r258.selectStatusDropdown)("multiple", false)("closeOnSelect", true)("clearable", false)("searchable", false)("ngModel", ctx_r258.selectedStatusDropdown)("ngModelOptions", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](16, _c4));
+      }
+    }
+
+    function PayoutsEmptyComponent_div_34_Template(rf, ctx) {
+      if (rf & 1) {
+        var _r272 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 30);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4", 45);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 32);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "i", 7);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Sorting ");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "form", 34);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 16);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "By");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 12);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "ng-select", 46);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function PayoutsEmptyComponent_div_34_Template_ng_select_ngModelChange_9_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r272);
+
+          var ctx_r271 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r271.selectedColSorting = $event;
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 36);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 17);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "ng-select", 46);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function PayoutsEmptyComponent_div_34_Template_ng_select_ngModelChange_12_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r272);
+
+          var ctx_r273 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r273.selectedOrder = $event;
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 38);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "button", 39);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Apply");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "button", 40);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PayoutsEmptyComponent_div_34_Template_button_click_16_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r272);
+
+          var ctx_r274 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r274.closeAside();
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Cancel");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+
+      if (rf & 2) {
+        var ctx_r259 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](9);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("items", ctx_r259.selectColSorting)("multiple", false)("closeOnSelect", true)("clearable", false)("searchable", false)("ngModel", ctx_r259.selectedColSorting)("ngModelOptions", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](14, _c4));
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("items", ctx_r259.selectOrder)("multiple", false)("closeOnSelect", true)("clearable", false)("searchable", false)("ngModel", ctx_r259.selectedOrder)("ngModelOptions", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](15, _c4));
+      }
+    }
+
+    var _c5 = function _c5(a0) {
+      return {
+        "open-details": a0
+      };
+    };
+
+    var PayoutsEmptyComponent =
+    /*#__PURE__*/
+    function () {
+      function PayoutsEmptyComponent() {
+        _classCallCheck(this, PayoutsEmptyComponent);
+
+        this.emptyText = 'No data';
+        this.unSelectPayout = 'Please select payout to view details';
+        this.asideIsShow = false;
+        this.isDsc = false;
+        this.calendarIsShow = false;
+        this.isShowFilter = true;
+        this.detailIsShow = false;
+        this.selectTimeDropdown = [{
+          id: 1,
+          name: 'Last 7 Days'
+        }, {
+          id: 2,
+          name: 'Today'
+        }, {
+          id: 3,
+          name: 'Yesterday'
+        }, {
+          id: 4,
+          name: 'Last Week'
+        }, {
+          id: 5,
+          name: 'Last Month'
+        }, {
+          id: 6,
+          name: 'Custom'
+        }];
+        this.selectedTimeDropdown = 'Last 7 Days';
+        this.selectStatusDropdown = [{
+          id: 1,
+          name: 'Show all'
+        }, {
+          id: 2,
+          name: 'Unpaid'
+        }, {
+          id: 3,
+          name: 'Paid'
+        }];
+        this.selectedStatusDropdown = 'Show all';
+        this.selectColSorting = [{
+          id: 1,
+          name: 'Merchant'
+        }, {
+          id: 2,
+          name: 'Payout Date'
+        }, {
+          id: 3,
+          name: 'Payout amount'
+        }, {
+          id: 4,
+          name: 'Status'
+        }];
+        this.selectedColSorting = 'Merchant';
+        this.selectOrder = [{
+          id: 1,
+          name: 'Ascending'
+        }, {
+          id: 2,
+          name: 'Descending'
+        }];
+        this.selectedOrder = 'Descending';
+        this.isShowDatePicker = false;
+      }
+
+      _createClass(PayoutsEmptyComponent, [{
+        key: "checkCustom",
+        value: function checkCustom() {
+          if (this.selectedTimeDropdown === 'Custom') {
+            this.isShowDatePicker = true;
+          } else {
+            this.isShowDatePicker = false;
+          }
+        }
+      }, {
+        key: "onDateChange",
+        value: function onDateChange(newDate) {// console.log(newDate);
+        }
+      }, {
+        key: "onShow",
+        value: function onShow(event) {
+          this.calendarIsShow = true;
+          var dayHoverHandler = event.dayHoverHandler;
+
+          var hoverWrapper = function hoverWrapper($event) {
+            var cell = $event;
+            cell.isHovered = false;
+            return dayHoverHandler($event);
+          };
+
+          event.dayHoverHandler = hoverWrapper;
+        }
+      }, {
+        key: "onHidden",
+        value: function onHidden(event) {
+          this.calendarIsShow = false;
+        }
+      }, {
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          this.myDateValue = new Date();
+        }
+      }, {
+        key: "openAside",
+        value: function openAside() {
+          var body = document.getElementsByTagName('html')[0];
+          body.classList.add('aside-open');
+          var asidebar = document.getElementsByClassName('asidebar')[0];
+          asidebar.scroll(0, 0);
+        }
+      }, {
+        key: "closeAside",
+        value: function closeAside() {
+          var body = document.getElementsByTagName('html')[0];
+          body.classList.remove('aside-open');
+          var asidebar = document.getElementsByClassName('asidebar');
+        }
+      }, {
+        key: "openPayoutDetails",
+        value: function openPayoutDetails() {
+          this.detailIsShow = true;
+        }
+      }, {
+        key: "closePayoutDetails",
+        value: function closePayoutDetails() {
+          this.detailIsShow = false;
+        }
+      }]);
+
+      return PayoutsEmptyComponent;
+    }();
+
+    PayoutsEmptyComponent.ɵfac = function PayoutsEmptyComponent_Factory(t) {
+      return new (t || PayoutsEmptyComponent)();
+    };
+
+    PayoutsEmptyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: PayoutsEmptyComponent,
+      selectors: [["app-payouts-empty"]],
+      viewQuery: function PayoutsEmptyComponent_Query(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_c0, true);
+        }
+
+        if (rf & 2) {
+          var _t;
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.datePicker = _t.first);
+        }
+      },
+      decls: 35,
+      vars: 23,
+      consts: [[1, "main-content", 3, "ngClass"], [1, "page-header-wrapper"], [1, "header-left"], [1, "page-title"], [1, "header-right", "d-flex", "align-items-start", "flex-wrap", "d-lg-none"], [1, "btn", "btn-filter", 3, "click"], [1, "icon-filter"], [1, "icon-sort"], [1, "filter-wrapper", "d-none", "d-lg-flex", "flex-wrap", "align-items-start", "w-100"], [1, "form-group", "search-input"], ["type", "text", "placeholder", "Type here to search", "aria-label", "Search", 1, "form-control"], [1, "icon-magnifier"], [1, "form-group", "select-dropdown"], ["bindLabel", "name", "bindValue", "name", 1, "ng-select-dropdown", 3, "items", "multiple", "closeOnSelect", "clearable", "searchable", "ngModel", "ngModelOptions", "ngModelChange", "close"], ["class", "form-group datepicker-input", 4, "ngIf"], [1, "form-group", "d-lg-flex", "align-items-center", "pr-2", "mr-xl-auto"], [1, "form-label", "mr-2"], [1, "select-dropdown"], ["bindLabel", "name", "bindValue", "name", "plasceholder", "Select status", 1, "ng-select-dropdown", 3, "items", "multiple", "closeOnSelect", "clearable", "searchable", "ngModel", "ngModelOptions", "ngModelChange"], [1, "row"], [1, "col-12", "no-padding-md"], [1, "transaction-table", "payout-table", "tablet-table-view"], [1, "col-lg-7", "col-main-table", "empty-payout"], [1, "card", "card-table"], [1, "card-body"], [3, "textEmpty"], [1, "asidebar", "asidebar-filter"], ["class", "aside-content-wrapper", 4, "ngIf"], [1, "form-group", "datepicker-input"], ["type", "text", "placeholder", "Select Date", "bsDaterangepicker", "", 1, "form-control", 3, "bsConfig"], [1, "aside-content-wrapper"], [1, "aside-title", "has-clear"], [1, "title"], [1, "link-clear"], ["action", "", 1, "form", "form-filter"], ["class", "form-group datepicker-input", 3, "ngClass", 4, "ngIf"], [1, "form-group", "d-lg-flex", "align-items-center"], ["bindLabel", "name", "bindValue", "name", "placeholder", "Select status", 1, "ng-select-dropdown", 3, "items", "multiple", "closeOnSelect", "clearable", "searchable", "ngModel", "ngModelOptions", "ngModelChange"], [1, "btn-wrapper"], ["type", "button", 1, "btn", "btn-primary", "text-uppercase"], ["type", "button", 1, "btn", "btn-outline-primary", "text-uppercase", 3, "click"], [1, "form-group", "datepicker-input", 3, "ngClass"], ["type", "text", "placeholder", "Select Date", "bsDaterangepicker", "", "placement", "bottom", "containerClass", "asideCalendar", 1, "form-control", 3, "bsConfig", "onShown", "onHidden"], ["dp", "bsDaterangepicker"], [1, "dropdown-toggle", 3, "click"], [1, "aside-title"], ["bindLabel", "name", "bindValue", "name", 1, "ng-select-dropdown", 3, "items", "multiple", "closeOnSelect", "clearable", "searchable", "ngModel", "ngModelOptions", "ngModelChange"]],
+      template: function PayoutsEmptyComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h4", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Payouts");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PayoutsEmptyComponent_Template_a_click_6_listener($event) {
+            ctx.openAside();
+            return ctx.isShowFilter = true;
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "i", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " Filters ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function PayoutsEmptyComponent_Template_a_click_9_listener($event) {
+            ctx.openAside();
+            return ctx.isShowFilter = false;
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "i", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " Sorting ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "input", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "i", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "ng-select", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function PayoutsEmptyComponent_Template_ng_select_ngModelChange_17_listener($event) {
+            return ctx.selectedTimeDropdown = $event;
+          })("close", function PayoutsEmptyComponent_Template_ng_select_close_17_listener($event) {
+            return ctx.checkCustom();
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, PayoutsEmptyComponent_div_18_Template, 2, 2, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Status");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "ng-select", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function PayoutsEmptyComponent_Template_ng_select_ngModelChange_23_listener($event) {
+            return ctx.selectedStatusDropdown = $event;
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "app-transaction-empty", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](33, PayoutsEmptyComponent_div_33_Template, 26, 17, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](34, PayoutsEmptyComponent_div_34_Template, 18, 16, "div", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](19, _c5, ctx.detailIsShow));
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("items", ctx.selectTimeDropdown)("multiple", false)("closeOnSelect", true)("clearable", false)("searchable", false)("ngModel", ctx.selectedTimeDropdown)("ngModelOptions", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](21, _c4));
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isShowDatePicker);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("items", ctx.selectStatusDropdown)("multiple", false)("closeOnSelect", true)("clearable", false)("searchable", false)("ngModel", ctx.selectedStatusDropdown)("ngModelOptions", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](22, _c4));
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("textEmpty", ctx.emptyText);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isShowFilter);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.isShowFilter);
+        }
+      },
+      directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgClass"], _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_3__["NgSelectComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _core_transaction_empty_transaction_empty_component__WEBPACK_IMPORTED_MODULE_5__["TransactionEmptyComponent"], ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_6__["BsDaterangepickerInputDirective"], ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_6__["BsDaterangepickerDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgForm"]],
+      encapsulation: 2
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PayoutsEmptyComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-payouts-empty',
+          templateUrl: './payouts-empty.component.html'
+        }]
+      }], function () {
+        return [];
       }, {
         datePicker: [{
           type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"],
