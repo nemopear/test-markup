@@ -41414,6 +41414,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./bar-testmode/bar-testmode.component */ "./src/app/clients/core/bar-testmode/bar-testmode.component.ts");
 /* harmony import */ var _testmode_warning_testmode_warning_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./testmode-warning/testmode-warning.component */ "./src/app/clients/core/testmode-warning/testmode-warning.component.ts");
 /* harmony import */ var _debtor_transactions_table_debtor_transactions_table_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./debtor-transactions-table/debtor-transactions-table.component */ "./src/app/clients/core/debtor-transactions-table/debtor-transactions-table.component.ts");
+/* harmony import */ var ngx_bootstrap_popover__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ngx-bootstrap/popover */ "./node_modules/ngx-bootstrap/__ivy_ngcc__/popover/fesm2015/ngx-bootstrap-popover.js");
+
+
 
 
 
@@ -41448,7 +41451,8 @@ CoreModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
             _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"],
             ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_9__["BsDropdownModule"],
             ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_10__["BsDatepickerModule"].forRoot(),
-            ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_15__["TabsModule"].forRoot()
+            ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_15__["TabsModule"].forRoot(),
+            ngx_bootstrap_popover__WEBPACK_IMPORTED_MODULE_20__["PopoverModule"].forRoot()
             // Chart
         ],
         _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"],
@@ -41457,7 +41461,10 @@ CoreModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
         _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"],
         ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_10__["BsDatepickerModule"],
         ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_9__["BsDropdownModule"],
-        ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_15__["TabsModule"]] });
+        ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_15__["TabsModule"],
+        ngx_bootstrap_popover__WEBPACK_IMPORTED_MODULE_20__["PopoverModule"]
+        // Chart
+    ] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](CoreModule, { declarations: [_progress_step_progress_step_component__WEBPACK_IMPORTED_MODULE_2__["ProgressStepComponent"],
         _default_layout_default_layout_component__WEBPACK_IMPORTED_MODULE_3__["DefaultLayoutComponent"],
         _dashboard_layout_dashboard_layout_component__WEBPACK_IMPORTED_MODULE_7__["DashboardLayoutComponent"],
@@ -41473,7 +41480,7 @@ CoreModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
         _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"],
         _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_5__["NgSelectModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"],
-        ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_9__["BsDropdownModule"], ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_10__["BsDatepickerModule"], ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_15__["TabsModule"]], exports: [_progress_step_progress_step_component__WEBPACK_IMPORTED_MODULE_2__["ProgressStepComponent"],
+        ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_9__["BsDropdownModule"], ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_10__["BsDatepickerModule"], ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_15__["TabsModule"], ngx_bootstrap_popover__WEBPACK_IMPORTED_MODULE_20__["PopoverModule"]], exports: [_progress_step_progress_step_component__WEBPACK_IMPORTED_MODULE_2__["ProgressStepComponent"],
         _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"],
         _ng_select_ng_select__WEBPACK_IMPORTED_MODULE_5__["NgSelectModule"],
         _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
@@ -41489,7 +41496,8 @@ CoreModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
         _dropdown_status_dropdown_status_component__WEBPACK_IMPORTED_MODULE_16__["DropdownStatusComponent"],
         _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__["BarTestmodeComponent"],
         _testmode_warning_testmode_warning_component__WEBPACK_IMPORTED_MODULE_18__["TestmodeWarningComponent"],
-        _debtor_transactions_table_debtor_transactions_table_component__WEBPACK_IMPORTED_MODULE_19__["DebtorTransactionsTableComponent"]
+        _debtor_transactions_table_debtor_transactions_table_component__WEBPACK_IMPORTED_MODULE_19__["DebtorTransactionsTableComponent"],
+        ngx_bootstrap_popover__WEBPACK_IMPORTED_MODULE_20__["PopoverModule"]
         // Chart
     ] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CoreModule, [{
@@ -41516,7 +41524,8 @@ CoreModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
                     _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"],
                     ngx_bootstrap_dropdown__WEBPACK_IMPORTED_MODULE_9__["BsDropdownModule"],
                     ngx_bootstrap_datepicker__WEBPACK_IMPORTED_MODULE_10__["BsDatepickerModule"].forRoot(),
-                    ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_15__["TabsModule"].forRoot()
+                    ngx_bootstrap_tabs__WEBPACK_IMPORTED_MODULE_15__["TabsModule"].forRoot(),
+                    ngx_bootstrap_popover__WEBPACK_IMPORTED_MODULE_20__["PopoverModule"].forRoot()
                     // Chart
                 ],
                 exports: [
@@ -41536,7 +41545,8 @@ CoreModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
                     _dropdown_status_dropdown_status_component__WEBPACK_IMPORTED_MODULE_16__["DropdownStatusComponent"],
                     _bar_testmode_bar_testmode_component__WEBPACK_IMPORTED_MODULE_17__["BarTestmodeComponent"],
                     _testmode_warning_testmode_warning_component__WEBPACK_IMPORTED_MODULE_18__["TestmodeWarningComponent"],
-                    _debtor_transactions_table_debtor_transactions_table_component__WEBPACK_IMPORTED_MODULE_19__["DebtorTransactionsTableComponent"]
+                    _debtor_transactions_table_debtor_transactions_table_component__WEBPACK_IMPORTED_MODULE_19__["DebtorTransactionsTableComponent"],
+                    ngx_bootstrap_popover__WEBPACK_IMPORTED_MODULE_20__["PopoverModule"]
                     // Chart
                 ]
             }]
