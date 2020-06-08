@@ -119,6 +119,7 @@
   color: #2a8fdf;
   font-size: 16px;
   position: relative;
+  display: inline-block;
 }
 
 .webshop-detail-box .webshop-modal-link .icons {
