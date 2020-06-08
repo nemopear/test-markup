@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Webshop Part</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"
+      integrity="sha256-7O1DfUu4pybYI7uAATw34eDrgQaWGOfMV/8erfDQz/Q="
+      crossorigin="anonymous"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style-webshop.css">
+
+  </head>
+  <body>
+    <div class="webshop-detail-box">
+      <div class="payment-wrapper">
+        <div class="price-wrapper">
+          <div class="number-wrapper">
+            <div class="number"><span class="unit">DKK</span>1.200,00</div>
+          </div>
+        </div>
+        <div class="price-month-wrapper" (click)="openModal(template)">
+          <span class="webshop-modal-link">or as little as 200.00 DKK per month with split payments<i class="icon-arrow-right icons"></i></span>
+
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <div class="anyday-split-warning">
+      <div class="content-alert">
+        <i class="icon-exclamation"></i>
+        <span class="text">
+          Anyday Split account deactivated, Administrator should contact Anyday Split or remove the price tag.
+        </span>
+      </div>
+    </div>
+
+    <hr />
+
+    <div role="document" class="anyday-modal modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Split this into smaller payments</h2>
+          <!-- <div class="anyday-logo">
+            <img src="https://anyday-split.northeurope.cloudapp.azure.com/assets/img/anyday-logo-white.svg" alt="" />
+          </div> -->
+          <i aria-label="Close" class="icon-close"></i>
+        </div>
+        <div class="modal-body">
+          <div class="order-summary">
+            <div class="payment-wrapper">
+              <div class="payment-type viabill-content">
+                <div class="payment-logo">
+                  <img src="../src/assets/img/viabill-logo-white.svg" alt="" />
+                </div>
+                <div class="payment-content">
+                  <div class="summary-payment">
+                    62.25 DKK <span class="symbol">x</span>4months<span class="symbol">=</span>249.00 DKK
+                  </div>
+                  <div class="link-payment">
+                    <a href="">Sign up for Viabill</a>
+                  </div>
+                </div>
+              </div>
+              <div class="payment-type">
+                <div class="payment-logo">
+                  <img src="https://anyday-split.northeurope.cloudapp.azure.com/assets/img/anyday-logo-white.svg" alt="" />
+                </div>
+                <div class="payment-content">
+                  <div class="summary-payment">
+                    62.25 DKK <span class="symbol">x</span>4months<span class="symbol">=</span>249.00 DKK
+                  </div>
+                  <div class="link-payment">
+                    <a href="">Sign up for ANYDAY</a>
+                  </div>
+                </div>
+              </div>
+              <div class="payment-quote">
+                <p>It;s quick and easy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer d-block">
+          <div class="icon-teaser-wrapper">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="icon-teaser-item">
+                  <div class="icon-teaser-title">
+                    <i class="icon-teaser icon-interest"></i>
+                    0% interest or fees
+                  </div>
+                  <div class="icon-teaser-content">
+                    <p>
+                      You only pay the purchase price, as long as you pay the installments.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="icon-teaser-item">
+                  <div class="icon-teaser-title">
+                    <i class="icon-teaser icon-waiting-time"></i>
+                    No waiting time
+                  </div>
+                  <div class="icon-teaser-content">
+                    <p>
+                      Instant approval means your order is shipped at soon as other payment methods.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="icon-teaser-item">
+                  <div class="icon-teaser-title">
+                    <i class="icon-teaser icon-credit-card"></i>
+                    Easy, automatic payments
+                  </div>
+                  <div class="icon-teaser-content">
+                    <p>
+                      Installments are automatically deducted from your payment card when they are due.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="payment-text-footer">
+            <div class="row">
+              <div class="col-12">
+                <div class="footer-bar">
+                  <p>Just split your payment at checkout</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
