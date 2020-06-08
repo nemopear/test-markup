@@ -58,6 +58,7 @@
 .anyday-modal {
   max-width: 1000px;
   border-radius: 20px;
+  overflow: hidden;
 }
 @media (max-width: 991.98px) {
   .anyday-modal {
