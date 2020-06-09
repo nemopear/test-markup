@@ -211,7 +211,7 @@ class RedflagComponent {
     }
 }
 RedflagComponent.ɵfac = function RedflagComponent_Factory(t) { return new (t || RedflagComponent)(); };
-RedflagComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RedflagComponent, selectors: [["app-redflag"]], decls: 15, vars: 0, consts: [[1, "app-body", "bg-green-gradient", "page-redflag"], [1, "main", "d-flex", "align-items-center"], [1, "container"], [1, "row"], [1, "col-lg-12", "mx-auto"], [1, "card-transparent", "bg-transparent"], [1, "img-logo"], ["src", "../../../../assets/img/logo-anyday.png", "alt", "Alternate Text"], [1, "text-wrapper"], [1, "icon-wrapper"], [1, "icon-sad"], [1, "text-secondery"], ["href", "", 1, "btn", "btn-primary", "px-4"]], template: function RedflagComponent_Template(rf, ctx) { if (rf & 1) {
+RedflagComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RedflagComponent, selectors: [["app-redflag"]], decls: 15, vars: 0, consts: [[1, "app-body", "bg-green-gradient", "page-redflag"], [1, "main", "d-flex", "align-items-center"], [1, "container"], [1, "row"], [1, "col-lg-12", "mx-auto"], [1, "card-transparent", "bg-transparent"], [1, "img-logo"], ["src", "../../../../assets/img/anyday-logo-white.svg", "alt", "Alternate Text"], [1, "text-wrapper"], [1, "icon-wrapper"], [1, "icon-sad"], [1, "text-secondery"], ["href", "", 1, "btn", "btn-primary", "px-4"]], template: function RedflagComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "main", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -688,7 +688,7 @@ class Page404Component {
     }
 }
 Page404Component.ɵfac = function Page404Component_Factory(t) { return new (t || Page404Component)(); };
-Page404Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Page404Component, selectors: [["app-page404"]], decls: 13, vars: 0, consts: [[1, "app-body", "bg-green-gradient", "page-404"], [1, "main", "d-flex", "align-items-center"], [1, "container"], [1, "row"], [1, "col-lg-12", "mx-auto"], [1, "card-transparent", "bg-transparent"], [1, "img-logo"], ["src", "../../../../assets/img/logo-anyday.png", "alt", "Alternate Text"], [1, "text-wrapper"], [1, "title"], [1, "text-secondery"]], template: function Page404Component_Template(rf, ctx) { if (rf & 1) {
+Page404Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: Page404Component, selectors: [["app-page404"]], decls: 13, vars: 0, consts: [[1, "app-body", "bg-green-gradient", "page-404"], [1, "main", "d-flex", "align-items-center"], [1, "container"], [1, "row"], [1, "col-lg-12", "mx-auto"], [1, "card-transparent", "bg-transparent"], [1, "img-logo"], ["src", "../../../../assets/img/anyday-logo-white.svg", "alt", "Alternate Text"], [1, "text-wrapper"], [1, "title"], [1, "text-secondery"]], template: function Page404Component_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "main", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
