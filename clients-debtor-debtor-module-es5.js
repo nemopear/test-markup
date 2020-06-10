@@ -36341,6 +36341,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _anyday_member_anyday_member_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! ./anyday-member/anyday-member.component */
     "./src/app/clients/debtor/anyday-member/anyday-member.component.ts");
+    /* harmony import */
+
+
+    var _verify_nemid_verify_nemid_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    /*! ./verify-nemid/verify-nemid.component */
+    "./src/app/clients/debtor/verify-nemid/verify-nemid.component.ts");
 
     var routes = [{
       path: '',
@@ -36429,6 +36435,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         component: _anyday_member_anyday_member_component__WEBPACK_IMPORTED_MODULE_19__["AnydayMemberComponent"],
         data: {
           title: 'Payment'
+        }
+      }, {
+        path: 'verify-nemid',
+        component: _verify_nemid_verify_nemid_component__WEBPACK_IMPORTED_MODULE_20__["VerifyNemidComponent"],
+        data: {
+          title: 'verify nemid'
         }
       }]
     }, {
@@ -36624,6 +36636,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _anyday_member_anyday_member_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! ./anyday-member/anyday-member.component */
     "./src/app/clients/debtor/anyday-member/anyday-member.component.ts");
+    /* harmony import */
+
+
+    var _verify_nemid_verify_nemid_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    /*! ./verify-nemid/verify-nemid.component */
+    "./src/app/clients/debtor/verify-nemid/verify-nemid.component.ts");
 
     var DebtorModule = function DebtorModule() {
       _classCallCheck(this, DebtorModule);
@@ -36641,7 +36659,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](DebtorModule, {
-        declarations: [_login_login_component__WEBPACK_IMPORTED_MODULE_2__["LoginComponent"], _checkout_order_checkout_order_component__WEBPACK_IMPORTED_MODULE_4__["CheckoutOrderComponent"], _signup_signup_component__WEBPACK_IMPORTED_MODULE_5__["SignupComponent"], _terms_conditions_terms_conditions_component__WEBPACK_IMPORTED_MODULE_6__["TermsConditionsComponent"], _checkout_summary_checkout_summary_component__WEBPACK_IMPORTED_MODULE_7__["CheckoutSummaryComponent"], _account_setting_account_setting_component__WEBPACK_IMPORTED_MODULE_8__["AccountSettingComponent"], _verify_email_verify_email_component__WEBPACK_IMPORTED_MODULE_9__["VerifyEmailComponent"], _webshop_modal_webshop_modal_component__WEBPACK_IMPORTED_MODULE_10__["WebshopModalComponent"], _verify_successful_verify_successful_component__WEBPACK_IMPORTED_MODULE_11__["VerifySuccessfulComponent"], _transactions_transactions_component__WEBPACK_IMPORTED_MODULE_12__["TransactionsComponent"], _card_card_component__WEBPACK_IMPORTED_MODULE_13__["CardComponent"], _profile_profile_component__WEBPACK_IMPORTED_MODULE_14__["ProfileComponent"], _redflag_redflag_component__WEBPACK_IMPORTED_MODULE_15__["RedflagComponent"], _signup_without_webshop_signup_without_webshop_component__WEBPACK_IMPORTED_MODULE_16__["SignupWithoutWebshopComponent"], _payment_summary_payment_summary_component__WEBPACK_IMPORTED_MODULE_17__["PaymentSummaryComponent"], _anyday_login_anyday_login_component__WEBPACK_IMPORTED_MODULE_18__["AnydayLoginComponent"], _anyday_member_anyday_member_component__WEBPACK_IMPORTED_MODULE_19__["AnydayMemberComponent"]],
+        declarations: [_login_login_component__WEBPACK_IMPORTED_MODULE_2__["LoginComponent"], _checkout_order_checkout_order_component__WEBPACK_IMPORTED_MODULE_4__["CheckoutOrderComponent"], _signup_signup_component__WEBPACK_IMPORTED_MODULE_5__["SignupComponent"], _terms_conditions_terms_conditions_component__WEBPACK_IMPORTED_MODULE_6__["TermsConditionsComponent"], _checkout_summary_checkout_summary_component__WEBPACK_IMPORTED_MODULE_7__["CheckoutSummaryComponent"], _account_setting_account_setting_component__WEBPACK_IMPORTED_MODULE_8__["AccountSettingComponent"], _verify_email_verify_email_component__WEBPACK_IMPORTED_MODULE_9__["VerifyEmailComponent"], _webshop_modal_webshop_modal_component__WEBPACK_IMPORTED_MODULE_10__["WebshopModalComponent"], _verify_successful_verify_successful_component__WEBPACK_IMPORTED_MODULE_11__["VerifySuccessfulComponent"], _transactions_transactions_component__WEBPACK_IMPORTED_MODULE_12__["TransactionsComponent"], _card_card_component__WEBPACK_IMPORTED_MODULE_13__["CardComponent"], _profile_profile_component__WEBPACK_IMPORTED_MODULE_14__["ProfileComponent"], _redflag_redflag_component__WEBPACK_IMPORTED_MODULE_15__["RedflagComponent"], _signup_without_webshop_signup_without_webshop_component__WEBPACK_IMPORTED_MODULE_16__["SignupWithoutWebshopComponent"], _payment_summary_payment_summary_component__WEBPACK_IMPORTED_MODULE_17__["PaymentSummaryComponent"], _anyday_login_anyday_login_component__WEBPACK_IMPORTED_MODULE_18__["AnydayLoginComponent"], _anyday_member_anyday_member_component__WEBPACK_IMPORTED_MODULE_19__["AnydayMemberComponent"], _verify_nemid_verify_nemid_component__WEBPACK_IMPORTED_MODULE_20__["VerifyNemidComponent"]],
         imports: [_debtor_routing_module__WEBPACK_IMPORTED_MODULE_1__["DebtorRoutingModule"], _core_core_module__WEBPACK_IMPORTED_MODULE_3__["CoreModule"]]
       });
     })();
@@ -36652,7 +36670,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DebtorModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
-          declarations: [_login_login_component__WEBPACK_IMPORTED_MODULE_2__["LoginComponent"], _checkout_order_checkout_order_component__WEBPACK_IMPORTED_MODULE_4__["CheckoutOrderComponent"], _signup_signup_component__WEBPACK_IMPORTED_MODULE_5__["SignupComponent"], _terms_conditions_terms_conditions_component__WEBPACK_IMPORTED_MODULE_6__["TermsConditionsComponent"], _checkout_summary_checkout_summary_component__WEBPACK_IMPORTED_MODULE_7__["CheckoutSummaryComponent"], _account_setting_account_setting_component__WEBPACK_IMPORTED_MODULE_8__["AccountSettingComponent"], _verify_email_verify_email_component__WEBPACK_IMPORTED_MODULE_9__["VerifyEmailComponent"], _webshop_modal_webshop_modal_component__WEBPACK_IMPORTED_MODULE_10__["WebshopModalComponent"], _verify_successful_verify_successful_component__WEBPACK_IMPORTED_MODULE_11__["VerifySuccessfulComponent"], _transactions_transactions_component__WEBPACK_IMPORTED_MODULE_12__["TransactionsComponent"], _card_card_component__WEBPACK_IMPORTED_MODULE_13__["CardComponent"], _profile_profile_component__WEBPACK_IMPORTED_MODULE_14__["ProfileComponent"], _redflag_redflag_component__WEBPACK_IMPORTED_MODULE_15__["RedflagComponent"], _signup_without_webshop_signup_without_webshop_component__WEBPACK_IMPORTED_MODULE_16__["SignupWithoutWebshopComponent"], _payment_summary_payment_summary_component__WEBPACK_IMPORTED_MODULE_17__["PaymentSummaryComponent"], _anyday_login_anyday_login_component__WEBPACK_IMPORTED_MODULE_18__["AnydayLoginComponent"], _anyday_member_anyday_member_component__WEBPACK_IMPORTED_MODULE_19__["AnydayMemberComponent"]],
+          declarations: [_login_login_component__WEBPACK_IMPORTED_MODULE_2__["LoginComponent"], _checkout_order_checkout_order_component__WEBPACK_IMPORTED_MODULE_4__["CheckoutOrderComponent"], _signup_signup_component__WEBPACK_IMPORTED_MODULE_5__["SignupComponent"], _terms_conditions_terms_conditions_component__WEBPACK_IMPORTED_MODULE_6__["TermsConditionsComponent"], _checkout_summary_checkout_summary_component__WEBPACK_IMPORTED_MODULE_7__["CheckoutSummaryComponent"], _account_setting_account_setting_component__WEBPACK_IMPORTED_MODULE_8__["AccountSettingComponent"], _verify_email_verify_email_component__WEBPACK_IMPORTED_MODULE_9__["VerifyEmailComponent"], _webshop_modal_webshop_modal_component__WEBPACK_IMPORTED_MODULE_10__["WebshopModalComponent"], _verify_successful_verify_successful_component__WEBPACK_IMPORTED_MODULE_11__["VerifySuccessfulComponent"], _transactions_transactions_component__WEBPACK_IMPORTED_MODULE_12__["TransactionsComponent"], _card_card_component__WEBPACK_IMPORTED_MODULE_13__["CardComponent"], _profile_profile_component__WEBPACK_IMPORTED_MODULE_14__["ProfileComponent"], _redflag_redflag_component__WEBPACK_IMPORTED_MODULE_15__["RedflagComponent"], _signup_without_webshop_signup_without_webshop_component__WEBPACK_IMPORTED_MODULE_16__["SignupWithoutWebshopComponent"], _payment_summary_payment_summary_component__WEBPACK_IMPORTED_MODULE_17__["PaymentSummaryComponent"], _anyday_login_anyday_login_component__WEBPACK_IMPORTED_MODULE_18__["AnydayLoginComponent"], _anyday_member_anyday_member_component__WEBPACK_IMPORTED_MODULE_19__["AnydayMemberComponent"], _verify_nemid_verify_nemid_component__WEBPACK_IMPORTED_MODULE_20__["VerifyNemidComponent"]],
           imports: [_debtor_routing_module__WEBPACK_IMPORTED_MODULE_1__["DebtorRoutingModule"], _core_core_module__WEBPACK_IMPORTED_MODULE_3__["CoreModule"]]
         }]
       }], null, null);
@@ -39862,6 +39880,481 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./src/app/clients/debtor/verify-nemid/verify-nemid.component.ts":
+  /*!***********************************************************************!*\
+    !*** ./src/app/clients/debtor/verify-nemid/verify-nemid.component.ts ***!
+    \***********************************************************************/
+
+  /*! exports provided: VerifyNemidComponent */
+
+  /***/
+  function srcAppClientsDebtorVerifyNemidVerifyNemidComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "VerifyNemidComponent", function () {
+      return VerifyNemidComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var ngx_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ngx-bootstrap */
+    "./node_modules/ngx-bootstrap/__ivy_ngcc__/esm5/ngx-bootstrap.js");
+    /* harmony import */
+
+
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/forms */
+    "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+
+    function VerifyNemidComponent_ng_template_93_Template(rf, ctx) {
+      if (rf & 1) {
+        var _r58 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 37);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 38);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 39);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "i", 40);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function VerifyNemidComponent_ng_template_93_Template_i_click_3_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r58);
+
+          var ctx_r57 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          return ctx_r57.modalRef.hide();
+        });
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 41);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 42);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h3");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Terms & Conditions");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Lorem ipsum dolor sit amet, consectetuer adpiscing elit. Aenean commodo ligula egetolor. Aenean masa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultrici nec, pellentesue eu, pretum quis, sm. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Innim justo,honcus ut, imperdiet a, veneais vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elemeum semper nisi. Aenean vulptat eeifend tels. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem te, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies isi vel augue. Curaitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condentum rhoncus, sem quam semper libero, sit amet adipcing sm neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "p");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " Donitasapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit et nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, Vivamus elementum semper nisi. Aenean vulptat eeifend tels. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem te, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultrics nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipcing eque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donecsapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sitet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, ");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " Donitasapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit et nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, Vivamus elementum semper nisi. Aenean vulptat eeifend tels. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem te, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultrics nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipcing eque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donecsapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sitet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, ");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    }
+
+    var VerifyNemidComponent =
+    /*#__PURE__*/
+    function () {
+      function VerifyNemidComponent(modalService) {
+        _classCallCheck(this, VerifyNemidComponent);
+
+        this.modalService = modalService;
+        this.config = {
+          backdrop: true,
+          ignoreBackdropClick: false
+        };
+      }
+
+      _createClass(VerifyNemidComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }, {
+        key: "openModal",
+        value: function openModal(template) {
+          this.modalRef = this.modalService.show(template, Object.assign({}, {
+            class: 'anyday-modal terms-modal modal-lg'
+          }));
+        }
+      }, {
+        key: "onEvent",
+        value: function onEvent(event) {
+          event.stopPropagation();
+        }
+      }]);
+
+      return VerifyNemidComponent;
+    }();
+
+    VerifyNemidComponent.ɵfac = function VerifyNemidComponent_Factory(t) {
+      return new (t || VerifyNemidComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](ngx_bootstrap__WEBPACK_IMPORTED_MODULE_1__["BsModalService"]));
+    };
+
+    VerifyNemidComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: VerifyNemidComponent,
+      selectors: [["app-verify-nemid"]],
+      decls: 95,
+      vars: 0,
+      consts: [[1, "verify-nemid"], [1, "row"], [1, "col-xl-8", "col-lg-10", "mx-auto"], [1, "col-lg-6"], [1, "process-box-wrapper"], [1, "list-process"], [1, "step-process", "passed"], [1, "icon-process"], [1, "text-process"], [1, "step-process", "inprogress"], [1, "step-process"], [1, "verify-box-wrapper", "nemid-box-wrapper"], [1, "form-label", "require-symbol"], [1, "help-text"], [1, "iframe-box"], ["role", "alert", 1, "alert", "alert-danger"], ["src", "../../../../assets/img/nemid.png", "alt", "", 1, "w-100"], [1, "verify-box-wrapper", "connect-creditcard-wrapper"], [1, "header-section"], [1, "title"], [1, "content"], ["action", "", 1, "form"], [1, "form-group", "form-horizontal"], [1, "field-label"], [1, "field-content"], [1, "status-check", "checked", "icon-check"], [1, "form-group"], ["for", "state", 1, "require-symbol", "mb-0"], [1, "input-wrapper"], ["type", "text", "id", "email", "value", "", 1, "form-control"], [1, "custom-control", "custom-checkbox"], ["type", "checkbox", "id", "customCheck1", 1, "custom-control-input"], ["for", "customCheck1", 1, "custom-control-label"], [1, "link-terms", 3, "click"], [1, "btn-wrapper"], ["type", "button", 1, "btn", "btn-primary", "text-uppercase"], ["template", ""], [1, "modal-header"], [1, "anyday-logo"], ["src", "../../../../assets/img/logo-anyday.png", "alt", ""], ["aria-label", "Close", 1, "icon-close", 3, "click"], [1, "modal-body"], [1, "content-wrapper"]],
+      template: function VerifyNemidComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          var _r59 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h4");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Signup process");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "ul", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "i", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Verify phone number");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "i", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Verify identity");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "i", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Connect your payment card");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "li", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "i", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Confirm account information");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li", 10);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "i", 7);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "span", 8);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Done");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, " Verify Identity with NemID ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Your personal information is secured using NemID. We will use your CPR number to verify your identity, do a credit check, and look up your name and home address. By continuing, you consent to let us store and use your CPR number while you have an ANYDAY account. You can revoke your consent anytime you want.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, " Example error message. Lorem ipsum dlor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "img", 16);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 17);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 18);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "h2", 19);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "You're approved.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Complete the sign up to start paying with ANYDAY SPLIT.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 20);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "form", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Phone");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, " +47 913 32 277 ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "i", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "CPR number");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, " Verified ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](58, "i", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Name");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, " Alice Dony ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "i", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Address");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, " Solheimsbakken 53, SKJEBERG, 1747 ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "div", 22);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 23);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "Payment card");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "div", 24);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, " ****4589 ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](75, "i", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "div", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "label", 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Enter your email");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "div", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "We will send you a link to verify your email.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "div", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "input", 29);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "div", 26);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div", 30);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](85, "input", 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "label", 32);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "I have read and accept the ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "a", 33);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function VerifyNemidComponent_Template_a_click_88_listener($event) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r59);
+
+            var _r55 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](94);
+
+            ctx.openModal(_r55);
+            return $event.stopPropagation();
+          });
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "terms and conditions");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "div", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "button", 35);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](92, "COMPLETE SIGN UP");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](93, VerifyNemidComponent_ng_template_93_Template, 14, 0, "ng-template", null, 36, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
+        }
+      },
+      directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgForm"]],
+      encapsulation: 2
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](VerifyNemidComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-verify-nemid',
+          templateUrl: './verify-nemid.component.html'
+        }]
+      }], function () {
+        return [{
+          type: ngx_bootstrap__WEBPACK_IMPORTED_MODULE_1__["BsModalService"]
+        }];
+      }, null);
+    })();
+    /***/
+
+  },
+
+  /***/
   "./src/app/clients/debtor/verify-successful/verify-successful.component.ts":
   /*!*********************************************************************************!*\
     !*** ./src/app/clients/debtor/verify-successful/verify-successful.component.ts ***!
@@ -39919,9 +40412,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     VerifySuccessfulComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: VerifySuccessfulComponent,
       selectors: [["app-verify-successful"]],
-      decls: 27,
-      vars: 1,
-      consts: [[1, "debtor-signup-page"], [1, "page-header"], [1, "page-title", "text-uppercase"], [1, "progress-track"], [1, "steps"], [1, "step", "step-complete", "step-inactive"], [1, "step-icon"], [1, "step", "step-incomplete", "step-active"], [1, "step", "step-incomplete", "step-inactive"], [1, "row"], [1, "col-lg-10", "mx-auto"], [1, "single-card"], [1, "card", "card-order-summary", "card-successful", "text-center"], [1, "card-body"], [1, "card-title"], [1, "card-text"], ["href", "#", 1, "btn", "btn-primary", "text-uppercase"]],
+      decls: 15,
+      vars: 0,
+      consts: [[1, "debtor-signup-page"], [1, "row"], [1, "col-lg-10", "mx-auto"], [1, "single-card"], [1, "card", "card-order-summary", "card-successful", "text-center"], [1, "card-body"], [1, "card-title"], [1, "card-text"], ["href", "#", 1, "btn", "btn-primary", "text-uppercase"]],
       template: function VerifySuccessfulComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -39930,75 +40423,37 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h3", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Thank you for signing up!");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "ul", 4);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "li", 5);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "span", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi commodo consequat.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "span", 6);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li", 5);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "span", 6);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li", 7);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "span", 6);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "li", 8);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "span", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "You can verify your email to complete registration. An email has been sent to your email with a link to verify your account. If you have not received the email after a few minutes, please check your spam folder.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 8);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 9);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 10);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 11);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 12);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 13);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "h3", 14);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Thank you for signing up!");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "p", 15);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ullamco laboris nisi commodo consequat.");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 16);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Proceed to checkout");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "GO TO LOGIN PAGE");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -40013,12 +40468,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        }
-
-        if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.title, " ");
         }
       },
       encapsulation: 2
