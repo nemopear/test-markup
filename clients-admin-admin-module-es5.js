@@ -2334,7 +2334,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var _c0 = ["dp"];
 
-    function DebtorDetailsComponent_ng_template_198_div_5_div_44_Template(rf, ctx) {
+    function DebtorDetailsComponent_ng_template_198_div_5_div_47_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
 
@@ -2440,31 +2440,23 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 106);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 107);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, " Fee amount ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 108);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "h6");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 107);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "input", 108);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, " Fee amount ");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 109);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 96);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 109);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, " Total amount ");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 110);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, " 2.345,00 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "input", 110);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2474,13 +2466,33 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 111);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "h6");
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, " Total amount ");
+
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 76);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 112);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "button", 111);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " 2.345,00 ");
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function DebtorDetailsComponent_ng_template_198_div_5_Template_button_click_40_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 76);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "button", 113);
+
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function DebtorDetailsComponent_ng_template_198_div_5_Template_button_click_43_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r179);
 
           var ctx_r178 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
@@ -2488,13 +2500,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           return ctx_r178.toShowFeedback();
         });
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Capture");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Capture");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "button", 78);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "button", 78);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function DebtorDetailsComponent_ng_template_198_div_5_Template_button_click_42_listener($event) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function DebtorDetailsComponent_ng_template_198_div_5_Template_button_click_45_listener($event) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r179);
 
           var ctx_r180 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
@@ -2502,13 +2514,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           return ctx_r180.modalRef.hide();
         });
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Cancel");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Cancel");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](44, DebtorDetailsComponent_ng_template_198_div_5_div_44_Template, 2, 0, "div", 112);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](47, DebtorDetailsComponent_ng_template_198_div_5_div_47_Template, 2, 0, "div", 114);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -2520,7 +2532,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("items", ctx_r174.selectOrderDropdown)("multiple", false)("closeOnSelect", true)("clearable", false)("searchable", false);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](27);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r174.showLoading);
       }
@@ -2547,7 +2559,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       if (rf & 1) {
         var _r183 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 113);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 115);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 17);
 
@@ -2561,7 +2573,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 106);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 116);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "h6");
 
@@ -2569,9 +2581,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 114);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 117);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "input", 115);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "input", 118);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 75);
 
@@ -2583,7 +2595,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 106);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 116);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "h6");
 
@@ -2591,9 +2603,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 116);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 119);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "input", 115);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "input", 118);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 75);
 
@@ -2605,7 +2617,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 106);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 116);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "h6");
 
@@ -2613,9 +2625,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 117);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 120);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "input", 118);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "input", 121);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 75);
 
@@ -2657,7 +2669,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](32, DebtorDetailsComponent_ng_template_198_div_6_div_32_Template, 2, 0, "div", 112);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](32, DebtorDetailsComponent_ng_template_198_div_6_div_32_Template, 2, 0, "div", 114);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
       }
@@ -2677,7 +2689,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     function DebtorDetailsComponent_ng_template_198_div_7_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 119);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 122);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 17);
 
@@ -2685,9 +2697,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 92);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 120);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 123);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 106);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 116);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
 
@@ -2735,7 +2747,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 85);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, DebtorDetailsComponent_ng_template_198_div_5_Template, 45, 6, "div", 86);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, DebtorDetailsComponent_ng_template_198_div_5_Template, 48, 6, "div", 86);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, DebtorDetailsComponent_ng_template_198_div_6_Template, 33, 3, "div", 87);
 
@@ -2902,7 +2914,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       },
       decls: 200,
       vars: 8,
-      consts: [[1, "breadcrumb-wrapper"], [1, "breadcrumb"], [1, "breadcrumb-item"], ["href", "/admin/dashboard/debtors"], [1, "breadcrumb-item", "active"], [1, "main-content"], [1, "page-header-wrapper"], [1, "header-left"], [1, "page-title"], [1, "header-right", "d-flex", "align-items-center", "flex-wrap"], [1, "form-group", "d-lg-flex", "align-items-center", "mb-0", "mr-2"], [1, "custom-control", "custom-switch"], ["type", "checkbox", "id", "customSwitch1", 1, "custom-control-input"], ["for", "customSwitch1", 1, "custom-control-label"], [1, "text"], [1, "btn", "btn-primary", "btn-action", 3, "click"], [1, "icon-settings"], [1, "row"], [1, "col-12", "no-padding-sm"], [1, "c-testmode-warning"], [1, "debtor-details-primary"], [1, "card-deck"], [1, "card", "manage-card-wrapper", "profile-card-wrapper", "debtor-details", "mb-4"], [1, "card-body"], [1, "edit-link"], [1, "icon-pencil", 3, "click"], [1, "form-group", "form-horizontal"], [1, "field-label"], [1, "field-content"], [1, "status", "status-active"], [1, "field-content", "has-status"], [1, "text-content", "email"], [1, "status-check", "checked", "icon-check"], [1, "card", "card-debtor-summary", "mb-4"], [1, "data-group"], [1, "col-xl-6", "col-sm-4", "col-6"], [1, "field-group"], [1, "unit"], [1, "progress-section"], [1, "progress"], [1, "bar", 2, "width", "35%"], [1, "progress-detail"], [1, "form-vertical"], [1, "transaction-table", "tablet-card-view"], [1, "card", "card-table"], [1, "filter-wrapper"], [1, "form-group", "d-flex", "align-items-center"], [1, "form-label", "mr-2"], [1, "select-dropdown"], ["bindLabel", "name", "bindValue", "name", "placeholder", "Select", 1, "ng-select-dropdown", 3, "items", "multiple", "closeOnSelect", "clearable", "searchable", "ngModel", "ngModelOptions", "ngModelChange"], [1, "asidebar", "aside-actions"], [1, "aside-content-wrapper"], [1, "link-close", 3, "click"], [1, "icon-close"], [1, "aside-title"], [1, "actions-list"], [1, "action-item"], ["href", ""], [1, "icon-log"], [1, "icon-flag"], [1, "icon-lock"], [1, "icon-docs"], [1, "icon-minus"], [1, "icon-credit-card"], [3, "click"], [1, "icon-manual-capture"], [1, "icon-manual-fee"], [1, "asidebar"], [1, "title"], ["action", "", 1, "form"], ["role", "alert", 1, "alert", "alert-danger"], [1, "form-group"], ["for", "name", 1, "require-symbol"], [1, "input-wrapper"], ["type", "text", "id", "name", "value", "Lorem", 1, "form-control"], [1, "invalid-feedback"], [1, "btn-wrapper"], ["type", "button", 1, "btn", "btn-primary", "text-uppercase"], ["type", "button", 1, "btn", "btn-outline-primary", "text-uppercase", 3, "click"], ["class", "anyday-modal"], ["manualCapture", ""], [1, "modal-header"], [1, "anyday-logo"], ["src", "../../../../assets/img/logo-anyday.png", "alt", ""], ["aria-label", "Close", 1, "icon-close", 3, "click"], [1, "modal-body"], ["class", "manual-capture-details", 4, "ngIf"], ["class", "manual-add-details", 4, "ngIf"], ["class", "manual-capture-details success", 4, "ngIf"], [1, "manual-capture-details"], [1, "row", "content-scrollable"], [1, "col-12"], [1, "manual-capture-wrapper"], [1, "manual-capture-title"], [1, "manual-capture-list"], [1, "row", "d-none", "d-md-flex"], [1, "col-md-6"], [1, "form-label"], [1, "manual-capture-items"], [1, "form-label", "d-md-none"], [1, "form-group", "select-dropdown"], ["bindLabel", "name", "bindValue", "name", "placeholder", "Select order", 1, "ng-select-dropdown", 3, "items", "multiple", "closeOnSelect", "clearable", "searchable"], ["type", "text", "placeholder", "Capture amount", 1, "form-control", "is-invalid"], ["role", "alert", 1, "text-alert"], [1, "add-item-wrapper"], [1, "icon-plus"], [1, "manual-capture-description"], [1, "form-group", "capture-amout"], ["type", "text", "placeholder", "", 1, "form-control"], [1, "align-items-center", "d-flex", "justify-content-between", "manual-capture-description", "total-wrapper"], [1, "form-group", "total-amount"], ["type", "button", 1, "btn", "btn-primary", "text-uppercase", 3, "click"], [4, "ngIf"], [1, "manual-add-details"], [1, "form-group", "fee-amout"], ["type", "text", "placeholder", "", 1, "form-control", "is-invalid"], [1, "form-group", "description"], [1, "form-group", "datepicker-input", "transaction-date"], ["type", "text", "placeholder", "Select Date", "bsDaterangepicker", "", 1, "form-control", 3, "bsConfig"], [1, "manual-capture-details", "success"], [1, "icon-check"]],
+      consts: [[1, "breadcrumb-wrapper"], [1, "breadcrumb"], [1, "breadcrumb-item"], ["href", "/admin/dashboard/debtors"], [1, "breadcrumb-item", "active"], [1, "main-content"], [1, "page-header-wrapper"], [1, "header-left"], [1, "page-title"], [1, "header-right", "d-flex", "align-items-center", "flex-wrap"], [1, "form-group", "d-lg-flex", "align-items-center", "mb-0", "mr-2"], [1, "custom-control", "custom-switch"], ["type", "checkbox", "id", "customSwitch1", 1, "custom-control-input"], ["for", "customSwitch1", 1, "custom-control-label"], [1, "text"], [1, "btn", "btn-primary", "btn-action", 3, "click"], [1, "icon-settings"], [1, "row"], [1, "col-12", "no-padding-sm"], [1, "c-testmode-warning"], [1, "debtor-details-primary"], [1, "card-deck"], [1, "card", "manage-card-wrapper", "profile-card-wrapper", "debtor-details", "mb-4"], [1, "card-body"], [1, "edit-link"], [1, "icon-pencil", 3, "click"], [1, "form-group", "form-horizontal"], [1, "field-label"], [1, "field-content"], [1, "status", "status-active"], [1, "field-content", "has-status"], [1, "text-content", "email"], [1, "status-check", "checked", "icon-check"], [1, "card", "card-debtor-summary", "mb-4"], [1, "data-group"], [1, "col-xl-6", "col-sm-4", "col-6"], [1, "field-group"], [1, "unit"], [1, "progress-section"], [1, "progress"], [1, "bar", 2, "width", "35%"], [1, "progress-detail"], [1, "form-vertical"], [1, "transaction-table", "tablet-card-view"], [1, "card", "card-table"], [1, "filter-wrapper"], [1, "form-group", "d-flex", "align-items-center"], [1, "form-label", "mr-2"], [1, "select-dropdown"], ["bindLabel", "name", "bindValue", "name", "placeholder", "Select", 1, "ng-select-dropdown", 3, "items", "multiple", "closeOnSelect", "clearable", "searchable", "ngModel", "ngModelOptions", "ngModelChange"], [1, "asidebar", "aside-actions"], [1, "aside-content-wrapper"], [1, "link-close", 3, "click"], [1, "icon-close"], [1, "aside-title"], [1, "actions-list"], [1, "action-item"], ["href", ""], [1, "icon-log"], [1, "icon-flag"], [1, "icon-lock"], [1, "icon-docs"], [1, "icon-minus"], [1, "icon-credit-card"], [3, "click"], [1, "icon-manual-capture"], [1, "icon-manual-fee"], [1, "asidebar"], [1, "title"], ["action", "", 1, "form"], ["role", "alert", 1, "alert", "alert-danger"], [1, "form-group"], ["for", "name", 1, "require-symbol"], [1, "input-wrapper"], ["type", "text", "id", "name", "value", "Lorem", 1, "form-control"], [1, "invalid-feedback"], [1, "btn-wrapper"], ["type", "button", 1, "btn", "btn-primary", "text-uppercase"], ["type", "button", 1, "btn", "btn-outline-primary", "text-uppercase", 3, "click"], ["class", "anyday-modal"], ["manualCapture", ""], [1, "modal-header"], [1, "anyday-logo"], ["src", "../../../../assets/img/logo-anyday.png", "alt", ""], ["aria-label", "Close", 1, "icon-close", 3, "click"], [1, "modal-body"], ["class", "manual-capture-details", 4, "ngIf"], ["class", "manual-add-details", 4, "ngIf"], ["class", "manual-capture-details success", 4, "ngIf"], [1, "manual-capture-details"], [1, "row", "content-scrollable"], [1, "col-12"], [1, "manual-capture-wrapper"], [1, "manual-capture-title"], [1, "manual-capture-list"], [1, "row", "d-none", "d-md-flex"], [1, "col-md-6"], [1, "form-label"], [1, "manual-capture-items"], [1, "form-label", "d-md-none"], [1, "form-group", "select-dropdown"], ["bindLabel", "name", "bindValue", "name", "placeholder", "Select order", 1, "ng-select-dropdown", 3, "items", "multiple", "closeOnSelect", "clearable", "searchable"], ["type", "text", "placeholder", "Capture amount", 1, "form-control", "is-invalid"], ["role", "alert", 1, "text-alert"], [1, "add-item-wrapper"], [1, "icon-plus"], [1, "manual-capture-description", "align-items-center", "d-flex", "justify-content-between"], [1, "row", "align-items-center", "flex-1"], [1, "col-md-6", "text-left"], [1, "form-group", "capture-amout"], ["type", "text", "placeholder", "", 1, "form-control"], [1, "align-items-center", "d-flex", "justify-content-between", "manual-capture-description", "total-wrapper"], [1, "form-group", "total-amount"], ["type", "button", 1, "btn", "btn-primary", "text-uppercase", 3, "click"], [4, "ngIf"], [1, "manual-add-details"], [1, "manual-capture-description"], [1, "form-group", "fee-amout"], ["type", "text", "placeholder", "", 1, "form-control", "is-invalid"], [1, "form-group", "description"], [1, "form-group", "datepicker-input", "transaction-date"], ["type", "text", "placeholder", "Select Date", "bsDaterangepicker", "", 1, "form-control", 3, "bsConfig"], [1, "manual-capture-details", "success"], [1, "icon-check"]],
       template: function DebtorDetailsComponent_Template(rf, ctx) {
         if (rf & 1) {
           var _r186 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
