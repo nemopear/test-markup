@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        (async function () {
+            svgLink = `http://localhost:4200/assets/images/icons/stack/icon.svg`;
+            a = await jQuery.get(svgLink);
+            var allIcon = jQuery(a).find('svg[id]')
+            allid = allIcon.toArray().map(x => x.id)
+            allid.forEach(x => {
+                e = document.createElement('img');
+                e.src = svgLink + '#' + x;
+                e.width = 50
+                e.title = x
+                document.body.append(e)
+            })
+        })();
+    </script>
+</body>
+
+</html>
